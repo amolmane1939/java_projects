@@ -8,6 +8,7 @@ pipeline {
         stage('test') {
             steps {
                 sh 'node --version'
+                echo 'checkig node version'
             }
         }
     }
